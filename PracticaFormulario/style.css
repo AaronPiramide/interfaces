@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(288, 38%, 90%);
+    border: solid 0.4vh;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.formulario input {
+    background-color: hsl(288, 10%, 10%);
+    padding: 1vh;
+    border-radius: 1vh;
+    
+}
+
+.formulario textarea {
+    background-color: hsl(288, 10%, 10%);
+    padding: 1vh;
+    border-radius: 1vh;
+    
+}
+
+.formulario button {
+
+    background-color: hsl(108, 90%, 94%);
+    padding: 1vh;
+    border-radius: 1vh;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.formulario button:hover{
+    background-color: hsl(0, 83%, 50%);
+    padding: 1vh;
+    border-radius: 1vh;
+}
+
+.formulario button:checked{
+    background-color: hsl(61, 86%, 48%);
+    padding: 1vh;
+    border-radius: 1vh;
+}
