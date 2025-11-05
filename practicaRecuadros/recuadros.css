@@ -1,0 +1,45 @@
+body {
+
+    margin: 0;
+}
+
+.articulo1{
+
+    background-color:rgb(255, 255, 36);
+}
+
+.seccion1{
+
+    display: flex;
+    justify-content: center;
+    border-style: dotted;
+    border-color: hsl(241, 100%, 50%);
+    border-width: 5px;
+    background-color: rgb(253, 59, 59);
+
+    /*height: 50vh;*/
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.seccion2{
+
+    display: flex;
+    justify-content: center;
+    border: solid 3px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(253, 59, 59);
+    /*height: 50vh;*/
+}
+
+
+.articulo2{
+
+    background-color: bisque;
+}
+
+legend{
+
+    align-self: center;
+    background-color: aqua;
+}
