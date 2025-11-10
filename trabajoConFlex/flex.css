@@ -1,4 +1,4 @@
-.padre {
+.flex_h {
 
     display: flex;
     justify-content: center;
@@ -6,10 +6,14 @@
     gap: 20px;
     border: solid 3px;
     background-color: blanchedalmond;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;/*Para que tenga un tamaño mas pequeño y pueda alinearse con el wrap si pongo nuevos elementos*/
 }
 
 
-.padre2 {
+.flex_v {
 
     display: flex;
     align-items: center;
@@ -17,6 +21,9 @@
     gap: 20px;
     border: solid 6px;
     background-color: cadetblue;
+    justify-content: space-between;
+    height: 25vh;
+    flex-wrap: wrap;
 
 }
 
@@ -26,5 +33,12 @@
     border: solid 3px;
     margin: 10px;
     padding: 2vh;
+}
 
+.hijo:hover {
+
+    background-color: rgb(223, 8, 230);
+    border: solid 3px;
+    margin: 10px;
+    padding: 2vh;
 }
