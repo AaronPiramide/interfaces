@@ -1,0 +1,50 @@
+
+.contenedor_masivo{
+     display: grid;
+}
+
+.principal {
+    background-color: unset;
+    background-color: rgb(17, 190, 147);
+    border: var(--grosor_borde);
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+
+.navigation {
+    background-color: bisque;
+    border: var(--grosor_borde);
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.headser {
+   
+    background-color: brown;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    padding: 20px;
+    
+    border: var(--grosor_borde);
+}
+
+.side {
+    background-color: burlywood;
+    border: var(--grosor_borde);
+}
+
+.body {
+    background-color: cadetblue;
+    border: var(--grosor_borde);
+
+}
+
+.footer {
+    background-color: aquamarine;
+    border: var(--grosor_borde);
+}
