@@ -1,15 +1,12 @@
 
 .contenedor_masivo{
-     display: grid;
+     flex-wrap: wrap;
 }
 
 .principal {
     background-color: unset;
     background-color: rgb(17, 190, 147);
     border: var(--grosor_borde);
-
-    grid-row-start: 1;
-    grid-row-end: 2;
 
 }
 
@@ -18,18 +15,11 @@
     background-color: bisque;
     border: var(--grosor_borde);
 
-    grid-row-start: 2;
-    grid-row-end: 3;
-
 }
 
 .headser {
-   
     background-color: brown;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    padding: 20px;
-    
+    padding: 70px;
     border: var(--grosor_borde);
 }
 
