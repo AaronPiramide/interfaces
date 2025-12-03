@@ -1,0 +1,43 @@
+.padre {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    gap: 60px;
+
+    margin-top: 30vh;
+
+    background-color: rgba(157, 172, 16, 0.37);
+}
+
+.circulos_hijos {
+
+    height: 100px;
+    width: 100px;
+
+    border: 4px solid black;
+    border-radius: 100%;
+
+    background-color: blanchedalmond;
+
+    animation-name: circulos_moverse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes circulos_moverse {
+
+    from {
+        margin-left: 20%;
+       
+        background-color: rgb(229, 255, 0);
+    }
+
+    to {
+        margin-right: 20%;
+        background-color: rgb(0, 255, 234);
+    }
+
+}
