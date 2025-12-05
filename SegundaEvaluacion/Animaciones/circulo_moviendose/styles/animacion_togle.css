@@ -1,0 +1,35 @@
+.circulo {
+
+    border-radius: 100%;
+    border: 3px solid black;
+    height: 10vh;
+    width: 10vw;
+
+    animation-name: moverse_arriba_abajo;
+    animation-name: moverse_izquierda_a_derecha;
+
+    animation: moverse_arriba_abajo 2s infinite,
+        moverse_izquierda_a_derecha 2s infinite;
+}
+
+@keyframes moverse_arriba_abajo {
+
+    from {
+        margin-bottom: 80%;
+    }
+
+    to {
+        margin-top: 45%;
+    }
+}
+
+@keyframes moverse_izquierda_a_derecha {
+
+    from {
+        margin-left: 80%;
+    }
+
+    to {
+        margin-right: 45%;
+    }
+}
