@@ -1,0 +1,36 @@
+body {
+
+    background-color: var(--color_fondo);
+}
+
+h1 {
+    color: white;
+}
+
+.seccion_equipos {
+
+    table {
+        border-collapse: separate;
+        border-spacing: var(--espacio_tablas);
+        width: 100%;
+    }
+
+    td:first-child {
+
+        text-align: left;
+    }
+
+    td {
+        border: 1px solid grey;
+        padding: var(--padding_recuadros_equipos);
+        text-align: center;
+        color: white;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        padding: var(--padding_recuadros_equipos);
+    }
+
+    font-style: italic;
+}
