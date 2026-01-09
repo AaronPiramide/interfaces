@@ -4,6 +4,8 @@ body {
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
     color: white;
 }
 
@@ -16,11 +18,27 @@ h1 {
     }
 
     td:first-child {
-
         text-align: left;
     }
 
+    td:nth-child(2):hover {
+        background-color: grey;
+        transform: scale(1.02);
+    }
+
+    .link a {
+        margin: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: inherit;
+    }
+
+
     td {
+    
+
         border: 1px solid grey;
         padding: var(--padding_recuadros_equipos);
         text-align: center;
@@ -34,3 +52,11 @@ h1 {
 
     font-style: italic;
 }
+
+.icono_LEC{
+
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
