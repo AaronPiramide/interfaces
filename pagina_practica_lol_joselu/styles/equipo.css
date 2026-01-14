@@ -1,0 +1,40 @@
+body {
+
+    background-color: var(--color_fondo);
+}
+
+.nombre_equipo {
+
+    display: flex;
+    justify-content: center;
+    color: var(--color_texto);
+}
+
+.nombre_jugador {
+
+    color: var(--color_texto);
+}
+
+.jugador {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.jugador img {
+    width: 49%;
+}
+
+
+.icono_LEC {
+
+    display: flex;
+    position: absolute;
+    left: 0;
+
+    height: 5%;
+    width: auto;
+  
+    margin-left: 12px;
+}
