@@ -1,0 +1,47 @@
+body {
+
+    background-color: #1C1C1C;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+
+    font-style: italic;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 8%;
+}
+
+input {
+
+    width: 18em;
+
+    padding: 10px;
+
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+button {
+
+    background-color: white;
+    color: black;
+
+    width: 19.75em;
+
+    padding: 10px;
+
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+button:hover {
+
+    background-color: aquamarine;
+}
