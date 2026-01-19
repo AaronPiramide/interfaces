@@ -1,7 +1,7 @@
 :root {
-  
-    --color_gris_humo: #3A3A3A; 
-    --color_fondo:#292323;
+
+    --color_gris_humo: #3A3A3A;
+    --color_fondo: #292323;
 
     /*Tablas*/
     --padding_recuadros_equipos: 12px;
@@ -10,13 +10,12 @@
     --color_hover_td: grey;
     --color_fondo_th: white;
     --color_enlaces: orange;
-    --color_rojo_riot :#D3313D;
+    --color_rojo_riot: #D3313D;
 
     /*Texto*/
-    --color_texto : white;
+    --color_texto: white;
     --color_texto_azul: #00E4F7;
 
-
     /*Cabecera*/
-    --color_cabecera : #111111;
+    --color_cabecera: #111111;
 }
