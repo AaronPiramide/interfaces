@@ -10,12 +10,29 @@ div {
 img {
     height: 30em;
     width: 50em;
+
+    margin-top: 6%;
+}
+
+.nombre_campeon {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
-    color: var(--color_texto);
+    color: var(--color_texto_azul);
 }
 
 p {
     color: var(--color_texto);
+}
+
+.yunara {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
 }

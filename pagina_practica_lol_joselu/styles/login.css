@@ -1,6 +1,6 @@
 body {
 
-    background-color: var(--color_cabecera);
+    background-color: var(--color_fondo);
 
 }
 
@@ -21,7 +21,7 @@ div {
 
 input {
 
-    width: 20em;
+    width: 30em;
 
     padding: 10px;
 
@@ -33,7 +33,7 @@ button {
 
     background-color: var(--color_rojo_riot);
 
-    width: 22em;
+    width: 32em;
 
     padding: 10px;
 
@@ -50,8 +50,6 @@ button:hover {
 
 h1 {
     color: var(--color_texto);
-
-
 }
 
 img {
