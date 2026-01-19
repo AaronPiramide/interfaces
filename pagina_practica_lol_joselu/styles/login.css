@@ -1,6 +1,7 @@
 body {
 
-    background-color: #1C1C1C;
+    background-color: var(--color_cabecera);
+
 }
 
 form {
@@ -20,7 +21,7 @@ div {
 
 input {
 
-    width: 18em;
+    width: 20em;
 
     padding: 10px;
 
@@ -30,18 +31,43 @@ input {
 
 button {
 
-    background-color: white;
-    color: black;
+    background-color: var(--color_rojo_riot);
 
-    width: 19.75em;
+    width: 22em;
 
     padding: 10px;
 
     border: 2px solid;
     border-radius: 10px;
+
+    transition: transform 0.3s ease;
 }
 
 button:hover {
 
-    background-color: aquamarine;
+    transform: scale(1.05);
+}
+
+h1 {
+    color: var(--color_texto);
+
+
+}
+
+img {
+    width: 35em;
+    height: 25em;
+}
+
+.ultimos_campeones {
+
+    display: flex;
+    width: 100%;
+
+    padding-left: 0;
+    margin: 0;
+    margin-top: 8.75%;
+    padding: 0;
+
+    justify-content: space-around;
 }

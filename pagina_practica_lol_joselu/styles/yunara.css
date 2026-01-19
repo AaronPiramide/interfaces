@@ -1,0 +1,21 @@
+body {
+    background-color: var(--color_fondo);
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 30em;
+    width: 50em;
+}
+
+h1 {
+    color: var(--color_texto);
+}
+
+p {
+    color: var(--color_texto);
+}
