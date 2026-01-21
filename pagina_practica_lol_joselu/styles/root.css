@@ -18,4 +18,17 @@
 
     /*Cabecera*/
     --color_cabecera: #111111;
+
+    --img-height: 21.4vh;
+
+}
+
+h1 {
+    font-size: 3vh;
+
+}
+
+p {
+    font-size: 1.8vh;
+    min-height: 50px;
 }

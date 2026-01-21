@@ -7,7 +7,7 @@ h1 {
     display: flex;
     justify-content: center;
 
-    color: var(--color_texto);
+    color: var(--color_texto_azul);
     font-size: 20px;
 }
 

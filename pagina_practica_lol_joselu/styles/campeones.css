@@ -1,0 +1,30 @@
+body {
+
+    background-color: var(--color_fondo);
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+img {
+
+    height: var(--img-height);
+    width: calc(var(--img-height)*16/9);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+    border: 2px solid white;
+    box-shadow: 0 0 5px yellow;
+
+
+}
+
+h1 {
+    color: var(--color_texto_azul);
+}
