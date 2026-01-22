@@ -21,12 +21,12 @@ img {
 
 h1 {
     color: var(--color_texto_azul);
-    font-style: italic;
+
 }
 
 p {
     color: var(--color_texto);
-    font-style: italic;
+   
 }
 
 .yunara {
