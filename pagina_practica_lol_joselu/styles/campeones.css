@@ -24,5 +24,7 @@ img:hover {
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
     color: var(--color_texto_azul);
 }

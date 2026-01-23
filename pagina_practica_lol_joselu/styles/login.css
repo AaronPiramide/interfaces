@@ -2,6 +2,12 @@ body {
 
     background-color: var(--color_fondo);
 
+    background-image: url("../styles/images/fondos/fondo.png"); /* ruta de la imagen */
+    background-size: cover;        /* que cubra toda la pantalla */
+    background-position: center;   /* centrada */
+    background-repeat: no-repeat;  /* sin repetir */
+    background-attachment: fixed;  /* efecto parallax suave */
+
 }
 
 form {
@@ -49,23 +55,45 @@ button:hover {
 }
 
 h1 {
-    color: var(--color_texto);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: var(--color_rojo_riot);
+      
+}
+
+h3 {
+    font-size: 24px;
+    color: var(--color_rojo_riot);
 }
 
 img {
-    width: 35em;
-    height: 25em;
+    height: 30vh;
+    width: 10vw;
+
+    border: 2px solid white;
+    transition: transform 0.3s ease;
+
 }
 
-.ultimos_campeones {
+img:hover {
+
+    transform: scale(1.03);
+
+}
+
+.juegos_riot {
 
     display: flex;
-    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
 
-    padding-left: 0;
-    margin: 0;
-    margin-top: 8.75%;
-    padding: 0;
 
-    justify-content: space-around;
+.juego {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
