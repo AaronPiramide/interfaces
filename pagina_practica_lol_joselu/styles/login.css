@@ -2,12 +2,12 @@ body {
 
     background-color: var(--color_fondo);
 
-    background-image: url("../styles/images/fondos/fondo.png"); /* ruta de la imagen */
-    background-size: cover;        /* que cubra toda la pantalla */
-    background-position: center;   /* centrada */
-    background-repeat: no-repeat;  /* sin repetir */
-    background-attachment: fixed;  /* efecto parallax suave */
-
+    background-image: url("../styles/images/fondos/fondo.png");
+    background-size: 120vw auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: none;
 }
 
 form {
@@ -59,7 +59,7 @@ h1 {
     justify-content: center;
     margin-top: 20px;
     color: var(--color_rojo_riot);
-      
+
 }
 
 h3 {
@@ -86,8 +86,13 @@ img:hover {
 
     display: flex;
     justify-content: center;
-    gap: 40px;
-    margin-top: 20px;
+
+    height: 100%;
+    width: auto;
+
+    gap: 2.5vw;
+    margin-top: 2.1vh;
+    flex-basis: 10.28vw;
 }
 
 
@@ -96,4 +101,5 @@ img:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 10.28vw;
 }
