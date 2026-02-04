@@ -20,7 +20,7 @@ img {
 img:hover {
     transform: scale(1.03);
     border: 2px solid white;
-    box-shadow: 0 0 5px yellow;
+    box-shadow: 0 0 5px rgb(158, 158, 10);
 }
 
 h1 {
