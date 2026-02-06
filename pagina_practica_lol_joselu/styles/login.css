@@ -56,6 +56,8 @@ button:hover {
 
 h1 {
     display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
     justify-content: center;
     margin-top: 20px;
     color: var(--color_rojo_riot);
@@ -95,11 +97,58 @@ img:hover {
     flex-basis: 10.28vw;
 }
 
-
 .juego {
 
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 10.28vw;
+}
+
+
+.toggle {
+    width: 4vw;
+    height: 4vh;
+    background: var(--color_fondo);
+    border-radius: 40px;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    padding: 5vw;
+    transition: background 0.3s;
+}
+
+.toggle input {
+    display: none;
+}
+
+.girar {
+    width: 2vw;
+    height: 2vh;
+    background: var(--color_rojo_riot);
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    transition: transform 0.4s ease;
+}
+
+.toggle input:checked~.girar {
+    transform: translateX(40px) rotate(180deg);
+}
+
+.toggle input:checked~.icono_sol {
+    opacity: 0;
+}
+
+.toggle input:checked~.icono_luna {
+    opacity: 1;
+}
+
+body:has(.toggle input:checked) {
+    background: var(--color_fondo);
+}
+
+body:has(.toggle input:checked) .toggle {
+    background: var(--color_fondo);
 }
